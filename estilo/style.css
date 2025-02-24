@@ -22,6 +22,26 @@ main{
     height: 100vh;
 }
 
+section#icones img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px black;
+    box-sizing: border-box;
+}
+
+section#icones img:hover{
+    border: 2px solid rgb(255, 255, 255);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.733);
+    transition: transform .4s;
+}
+
+section#icones{
+    padding-top: 50px;
+    text-align: center;
+}
+
 iframe#tela{
     position: relative;
     top: 80px;
